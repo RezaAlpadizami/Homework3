@@ -1,0 +1,59 @@
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+p {
+  margin: 0;
+}
+
+.container {
+  text-align: center;
+}
+
+.container select {
+  width: 150px;
+}
+
+.textp {
+  padding-top: 7px;
+  font-weight: bold;
+  margin: 0 20px;
+}
+
+#inputNumber,
+#result {
+  width: 100%;
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+  padding-left: 10px;
+  font-size: 15px;
+  height: 35px;
+}
+
+.bgcolor {
+  margin-left: 100px;
+}
+
+.bgcolor #input-color {
+  width: 400px;
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+  padding-left: 10px;
+  font-size: 15px;
+  height: 35px;
+}
+
+.btn {
+  background-color: rgba(206, 212, 218, 0.5);
+  transition: all 0.3s;
+}
+
+.btn:hover {
+  background-color: rgba(206, 212, 218, 1);
+}
+
+.bgcolor .text-bgcolor {
+  font-size: 14px;
+}
