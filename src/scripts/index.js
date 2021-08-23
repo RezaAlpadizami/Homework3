@@ -62,7 +62,3 @@ function conv() {
 function change() {
   document.body.style.backgroundColor = bgColor.value;
 }
-
-module.exports = {
-  Convert,
-};
